@@ -11,13 +11,13 @@ const ContactPage = () => {
       <Header />
 
       <section>
-        <PageHeading>Contact Page</PageHeading>
+      
 
         <div className="max-w-container px-container mx-auto py-24 md:py-section">
           <div className="grid gap-20  lg:grid-cols-2 mb-20 md:mb-24">
             <div>
               <Image
-                src="/home1/contact/contact.jpg"
+                src="/home1/about/about.jpg"
                 width={600}
                 height={550}
                 className="w-full object-cover h-[550px] rounded-2xl"
@@ -30,17 +30,13 @@ const ContactPage = () => {
                   data-aos="fade-up"
                   className="text-dark mb-6 text-4xl md:text-5xl font-bold font-space_grotesk"
                 >
-                  Let’s Get in Touch
+                  Biz Nerdeyiz?
                 </h2>
-                <p className="leading-loose text-gray ">
-                  A vast majority of the app marketers mainly concent
-                  post-launch app marketing techniques and measures while
-                  completely missing pre-launch campaign. This prevents the
-                </p>
+                
               </div>
               <div>
                 <h5 className="text-blue font-bold font-space_grotesk text-2xl mb-6">
-                  Contact Info
+                  Adres Bilgileri
                 </h5>
                 <div className="mb-9 flex flex-col gap-5">
                   <div>
@@ -77,7 +73,16 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-
+ <div className="relative isolate">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899"
+            width="600"
+            height="450"
+            className=" w-full h-[480px]"
+            style={{ border: 0 }}
+            allowfullscreen
+          ></iframe>
+        </div>
           <form className="bg-dem-gray py-10 p-5  sm:p-10 md:p-16 xl:p-[75px] rounded-2xl">
             <header className="mb-10">
               <h3
@@ -126,16 +131,7 @@ const ContactPage = () => {
           </form>
         </div>
 
-        <div className="relative isolate">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899"
-            width="600"
-            height="450"
-            className=" w-full h-[480px]"
-            style={{ border: 0 }}
-            allowfullscreen
-          ></iframe>
-        </div>
+       
       </section>
       <Footer />
     </>

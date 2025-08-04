@@ -100,9 +100,9 @@ const MobileMenu = () => {
                         <Link
                           onClick={closeMenu}
                           className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
-                          href="/"
+                          href="/contact"
                         >
-                          SERVICES +
+                         Biz Nerdeyiz
                         </Link>
 
                         <Link
@@ -110,23 +110,17 @@ const MobileMenu = () => {
                           className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
                           href="/"
                         >
-                          BOOK A RIDE
+                          Taksi Çağır
                         </Link>
+
+                        
 
                         <Link
                           onClick={closeMenu}
                           className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
-                          href="/"
+                          href="/contact"
                         >
-                          BLOG +
-                        </Link>
-
-                        <Link
-                          onClick={closeMenu}
-                          className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
-                          href="/"
-                        >
-                          CONTACT
+                          İletişm
                         </Link>
                       </div>
                     </div>

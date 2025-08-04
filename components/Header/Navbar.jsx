@@ -31,9 +31,9 @@ const Navbar = () => {
           </li>
 
           <li>
-            <FlyoutLink links={pageLinks}>
-              <Link href="#">pages</Link>
-            </FlyoutLink>
+            
+              <Link href="/contact">Biz Nerdeyiz</Link>
+           
           </li>
           <li>
             <Link

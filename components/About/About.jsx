@@ -20,9 +20,9 @@ const About = () => {
             alt="about"
           />
           <div className="absolute inset-0  pb-10 flex items-end">
-            <div className="w-[214px] mx-auto rounded  flex items-center justify-center h-[97px] flex-col gap-1 bg-white ">
+            <div className="w-[214px] mr-0 rounded  flex items-center justify-center h-[97px] flex-col gap-1 bg-white">
               <h4 className="text-5xl font-bold font-roboto">25</h4>
-              <span className="text-lg text-dark-gray">Years Experience</span>
+              <span className="text-lg text-dark-gray font-bold">Yıllık Deneyim</span>
             </div>
           </div>
         </div>
@@ -31,32 +31,29 @@ const About = () => {
             data-aos="fade-up"
             className="text-sm mb-5 font-bold text-blue uppercase"
           >
-            Know about Hey Texico
+           Kale Taksi Vizyonu
           </div>
 
           <h2
             data-aos="fade-up"
             className="text-4xl sm:text-5xl mb-7 font-bold font-space_grotesk sm:leading-snug leading-snug"
           >
-            The First Thing That Strikes Visitor to{" "}
+           25 Yıllık taksi hizmetinin adresi {" "}
             <span
               style={{
                 backgroundImage: "url('/home1/about/ellipse.png')",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
-                backgroundSize: "120px",
-                backgroundPositionY: "18px",
+                backgroundSize: "100px",
+                backgroundPositionY: "22px",
               }}
               className="text-yellow inline-block px-4"
             >
-              Taxi
+             Kale Taksi
             </span>
           </h2>
           <p className="text-dark-gray max-w-[580px] mb-8">
-            Phasellus non ex dolor. Etiam ac enim lorem. Quisque ut pharetra
-            nisl. Vestibulum pulvinar dapibus magna sed ultrices. Curabitur sit
-            amet pellentesque magna. Cras est lobortis, lacinia mi a, dictum
-            sem. Nunc a pretium
+            25 yıldır kesintisiz hizmet veren Kale Taksi, güvenilirliği, dakikliği ve müşteri memnuniyetine verdiği önemle bölgenin en çok tercih edilen taksi durağı olmayı başarmıştır. Tecrübeli şoför kadrosu ve bakımlı araç filosuyla her zaman konforlu ve güvenli yolculuklar sunan bu köklü durak, yılların getirdiği deneyimle her ihtiyaca hızlıca yanıt verebilmektedir. Özellikle şehir içi ulaşımda dakik varışları, güler yüzlü hizmet anlayışı ve uygun fiyat politikasıyla müşterilerinin takdirini kazanan Kale Taksi, 25 yılın birikimini her gün bir adım ileri taşıyarak hizmet kalitesini artırmaya devam etmektedir.
           </p>
           <div className="mb-10">
             <div className="flex group  mb-8 items-center gap-6">
@@ -65,10 +62,9 @@ const About = () => {
               </div>
 
               <div>
-                <h5 className="mb-1 text-xl font-bold">Professional Driver</h5>
+                <h5 className="mb-1 text-xl font-bold">Profesyonel Sürücüler</h5>
                 <p className="text-dark-gray leading-normal max-w-[330px]">
-                  Fusce luctus ante eget urna elementaa molestie tortor congue.
-                  In hacplate
+                  Eğitimli, deneyimli, uzun süredir halka hizmet veren güvenilir sürücü grubu
                 </p>
               </div>
             </div>
@@ -79,16 +75,15 @@ const About = () => {
               </div>
 
               <div>
-                <h5 className="mb-1 text-xl font-bold">Supper Taxi Car</h5>
+                <h5 className="mb-1 text-xl font-bold">Süper Taksi</h5>
                 <p className="text-dark-gray leading-normal max-w-[330px]">
-                  Fusce luctus ante eget urna elementaa molestie tortor congue.
-                  In hacplate
+            7724 Hizmete açık, bakımlı arabalarımız
                 </p>
               </div>
             </div>
           </div>
           <div className="flex items-center gap-7">
-            <Button>DISCOVER MORE</Button>
+            <Button>7/24 Hzmet</Button>
             <Link className="flex gap-5 items-center" href="tel:+8895679875678">
               <span className=" text-black  text-4xl">
                 <FiPhoneCall />
@@ -96,10 +91,10 @@ const About = () => {
 
               <span className="hidden sm:flex flex-col font-roboto font-semibold">
                 <span className="text-sm uppercase text-dark-gray">
-                  CALL ANYTIME
+                7/24 ara
                 </span>
                 <span className="font-roboto text-xl text-black">
-                  889 567 987 5678
+                 (0533) 522 89 89
                 </span>
               </span>
             </Link>
