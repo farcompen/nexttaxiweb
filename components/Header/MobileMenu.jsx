@@ -66,7 +66,7 @@ const MobileMenu = () => {
                         href="/"
                         className="text-5xl font-roboto font-bold text-black"
                       >
-                        Taxpi<span className="text-black">.</span>
+                        Kale Taksi<span className="text-black">.</span>
                       </Link>
                       <button onClick={closeMenu}>
                         <IoClose className="text-3xl" />
@@ -88,31 +88,14 @@ const MobileMenu = () => {
                           />
                         ) : null}
 
-                        <Button>DISCOVER MORE</Button>
+                        <Link href="tel:+905335228080" >0533 678 89 89</Link>
                       </div>
                       <div className="flex flex-col text-base font-medium  gap-5 ">
-                        <Accordion type="single" collapsible>
-                          <AccordionItem value="item-1">
-                            <AccordionTrigger>Home+</AccordionTrigger>
-                            {homeLinks.map((link, index) => (
-                              <AccordionContent key={link.href + index}>
-                                <Link onClick={closeMenu} href={link.href}>
-                                  {link.label}
+                        <Link onClick={closeMenu} href="/"
+                           className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
+                           >
+                                  Anasayfa
                                 </Link>
-                              </AccordionContent>
-                            ))}
-                          </AccordionItem>
-                          <AccordionItem value="item-2">
-                            <AccordionTrigger>PAGE+</AccordionTrigger>
-                            {pageLinks.map((link, index) => (
-                              <AccordionContent key={link.href + index}>
-                                <Link onClick={closeMenu} href={link.href}>
-                                  {link.label}
-                                </Link>
-                              </AccordionContent>
-                            ))}
-                          </AccordionItem>
-                        </Accordion>
 
                         <Link
                           onClick={closeMenu}

@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className=" basis-full xl:basis-64 bg-dark-green flex items-center 2xl:basis-[300px] justify-between">
-        <Link className="flex group items-center" href="tel:+8895679875678">
+        <Link className="flex group items-center" href="tel:+905335228989">
           <span className="size-10 sm:size-[60px] shrink-0 rounded-full grid place-content-center border-4 border-dark-green -translate-x-1/2  bg-yellow text-xl group-hover:bg-white duration-500 transition-all">
             <FiPhoneCall />
           </span>
