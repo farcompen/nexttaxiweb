@@ -13,7 +13,7 @@ const AboutPage = () => {
       <Header />
 
       <section>
-        <PageHeading>About Us</PageHeading>
+        <PageHeading>Hakkımızda</PageHeading>
 
         <div className="py-24 md:py-section">
           <About />

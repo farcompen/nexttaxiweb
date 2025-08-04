@@ -28,11 +28,10 @@ const Footer = () => {
               href="/"
               className="text-5xl block mb-10 font-roboto font-bold text-yellow"
             >
-              Taxpi<span className="text-white">.</span>
+             Kale Taksi<span className="text-white">.</span>
             </Link>
             <p className="max-w-[270px] text-silver-gray mb-8 font-roboto ">
-              Desires to obtain pain of it because it is pain, but occasionally
-              circum
+             25 Yıllık Deneyimimiz ile Kırıkkale'nin güvenilir Taksi Durağı hizmeti
             </p>
             <div className="flex flex-col gap-4">
               <div className="flex group items-center gap-3">
@@ -44,7 +43,7 @@ const Footer = () => {
               <div className="flex group items-center gap-3">
                 <IoLocationSharp className="text-yellow text-lg" />
                 <span className="text-silver-gray group-hover:text-white duration-500 transition-all font-roboto">
-                  Manchester City 1243 BL2 Road
+                  Kırıkkale Merkez 
                 </span>
               </div>
             </div>
@@ -166,7 +165,7 @@ const Footer = () => {
       <div className="bg-[#151513] py-6 ">
         <div className="max-w-container mx-auto flex items-center justify-between px-container flex-col gap-5 sm:flex-row">
           <span className="font-medium font-roboto text-silver-gray">
-            © Copyright 2024 by <span className="text-yellow">Taxico.com</span>
+            Bu site  <span className="text-yellow">Faruk GÜNGÖR</span> tarafından geliştirilmiştir.© Tüm hakları saklıdır. {new Date().getFullYear()}  
           </span>
           <div>
             <div className="flex items-center gap-3 flex-wrap">

@@ -10,7 +10,7 @@ const TaxiPage = () => {
       <Header />
 
       <section>
-        <PageHeading>Our Taxi</PageHeading>
+        <PageHeading>Sizin Taksiniz</PageHeading>
 
         <div className="max-w-container py-24 md:py-section mx-auto px-container">
           <header

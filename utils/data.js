@@ -5,17 +5,17 @@ import { FaHome, FaPlane, FaLaptop } from "react-icons/fa";
 export const herosData = [
   {
     id: 1,
-    title: "Best Taxi Service in the City",
+    title: "Kırıkkale'nin en İyi Taksi Durağı",
     cover: "/home1/hero/hero-bg-1.webp",
   },
   {
     id: 2,
-    title: "Best Taxi Service in the City",
+    title: "7/24 Taksi Hizmeti",
     cover: "/home1/hero/hero-bg-2.webp",
   },
   {
     id: 3,
-    title: "Best Taxi Service in the City",
+    title: "25 yıllık tecrübe ile güvenilir taksi hizmeti",
     cover: "/home1/hero/hero-bg-3.webp",
   },
 ];
@@ -95,7 +95,7 @@ export const testimonialsData = [
 export const drivers = [
   {
     id: 1,
-    name: "Arnold Haron",
+    name: "Mustafa Haron",
     position: "Car Specialist",
     image: "/home1/drivers/team1.png",
     socialLinks: {

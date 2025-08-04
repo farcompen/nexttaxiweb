@@ -10,7 +10,7 @@ const BookingPage = () => {
       <Header />
 
       <section>
-        <PageHeading>Book a Ride</PageHeading>
+        <PageHeading>Taksi Çağır</PageHeading>
 
         <div className="max-w-container px-container mx-auto py-24 md:py-section">
           <BookingFrom />

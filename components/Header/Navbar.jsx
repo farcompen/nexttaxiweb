@@ -18,15 +18,15 @@ const Navbar = () => {
   return (
     <nav className=" flex     h-20 2xl:h-[100px]">
       <div className="2xl:basis-[300px] flex justify-center items-center  px-10 bg-logo bg-no-repeat bg-cover">
-        <Link href="/" className="text-5xl font-roboto font-bold text-yellow">
-          Taxpi<span className="text-black">.</span>
+        <Link href="/" className="text-4xl font-roboto font-bold text-yellow">
+          Kale Taksi<span className="text-black">.</span>
         </Link>
       </div>
       <div className=" hidden flex-1 xl:flex items-center justify-between bg-yellow px-10 2xl:px-16 gap-10 xl:gap-16">
         <ul className=" flex flex-1 text-lg font-semibold items-center justify-between gap-2 max-w-5xl mx-auto">
           <li>
             <FlyoutLink links={homeLinks}>
-              <Link href="#">Home</Link>
+              <Link href="#">Anasayfa</Link>
             </FlyoutLink>
           </li>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
               className="hover:text-dark-green duration-500 transition-all"
               href="/services"
             >
-              SERVICES
+              Hizmetler
             </Link>
           </li>
           <li>
@@ -48,23 +48,23 @@ const Navbar = () => {
               className="hover:text-dark-green duration-500 transition-all"
               href="/booking"
             >
-              BOOK A RIDE
+            Taksi Çağır
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               className="hover:text-dark-green duration-500 transition-all"
               href="/blog"
             >
               BLOG
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               className="hover:text-dark-green duration-500 transition-all"
               href="/contact"
             >
-              CONTACT
+              İletişim
             </Link>
           </li>
         </ul>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <Search isSearchOpen={isSearchOpen} onClose={searchClose} />
           ) : null}
           <div className="hidden 2xl:block">
-            <Button>DISCOVER MORE</Button>
+            <Button>Daha fazla ...</Button>
           </div>
         </div>
       </div>
@@ -88,10 +88,10 @@ const Navbar = () => {
 
           <span className="hidden sm:flex flex-col font-roboto font-semibold">
             <span className="text-sm uppercase text-steel-gray">
-              CALL ANYTIME
+              7/24 Ara ...
             </span>
             <span className="font-roboto text-xl text-yellow">
-              889 567 987 5678
+              0533 678 89 89
             </span>
           </span>
         </Link>

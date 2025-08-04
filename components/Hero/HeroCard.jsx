@@ -18,7 +18,7 @@ const HeroCard = ({ hero }) => {
             data-aos="fade-up"
             className="text-purple text-yellow mb-6 font-semibold uppercase"
           >
-            WELCOME TO OUR TAXICO COMPANY
+            Kale Taksi 
           </p>
           <h1
             data-aos="fade-up"
@@ -27,13 +27,11 @@ const HeroCard = ({ hero }) => {
             {hero.title}
           </h1>
           <p className="text-light-gray mb-14 max-w-[630px]">
-            Proin accumsan magna rutrum, faucibus erat vitae, interdum augue.
-            Nam eget in to tortor. Sed nulla purus, laoreet eu turpis quis,
-            lacinia rhoncus lorem
+            Kırıkkkale'de Güvenilir 7/24 taksi hizmeti 
           </p>
           <div className="flex flex-col sm:flex-row relative items-center gap-7">
             <Button className="bg-yellow text-black hover:text-white">
-              DISCOVER MORE
+             Daha fazla ..
             </Button>
           </div>
         </div>
