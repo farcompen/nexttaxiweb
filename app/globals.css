@@ -1,0 +1,51 @@
+/*
+  Template Name: Taxpi - Online Taxi Service React & Nextjs Template
+  author: Nsstheme
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --top-bar-height: 50px;
+  }
+
+  p {
+    line-height: 1.8 !important;
+  }
+
+  select {
+    appearance: none;
+  }
+
+  * {
+    scroll-behavior: smooth;
+  }
+
+  p {
+    line-height: 1.8;
+  }
+
+  /* Slide in and Fadein Animation */
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  }
+
+  /* Mobile menu overly */
+  .backdrop {
+    animation: fadeIn 850ms cubic-bezier(0.14, 0.78, 0.36, 1);
+  }
+
+  /* Mobile menu container */
+  .drawer {
+    animation: slideIn 500ms cubic-bezier(0.14, 0.78, 0.36, 1);
+  }
+}
