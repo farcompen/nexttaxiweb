@@ -20,14 +20,15 @@ const Navbar = () => {
       <div className="2xl:basis-[300px] flex justify-center items-center  px-10 bg-logo bg-no-repeat bg-cover">
         <Link href="/" className="text-4xl font-roboto font-bold text-yellow">
          
-          <span className="flex items-center gap-2">
+          <span className="flex items-center gap-0">
             <img
               src="/taksi.png"
               alt="Taksi Logo"
-              className="w-24 h-10 object-contain drop-shadow-lg"
-              style={{ marginRight: "8px" }}
+              className="w-12 h-12 object-contain drop-shadow-lg"
+              style={{ marginRight: "2px" }}
             />
-            <span className="text-2xl font-roboto font-bold text-yellow  sm:text-md  md:text-md text-md">
+            <span className="text-2xl font-roboto font-bold text-yellow  sm:text-md  md:text-md text-md"
+            style={{marginRight:"6px"}}>
               Konak Taksi
             </span>
             {/* <span className="text-2xl font-roboto font-bold text-yellow  lg:text-xl md:text-md sm:text-md xs:text-md">
