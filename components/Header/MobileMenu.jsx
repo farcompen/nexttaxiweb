@@ -108,7 +108,7 @@ const MobileMenu = () => {
                         <Link
                           onClick={closeMenu}
                           className="font-semibold hover:text-dark-green  duration-300 uppercase focus-visible:text-dark-green transition-all"
-                          href="/"
+                          href="/booking"
                         >
                           Taksi Çağır
                         </Link>

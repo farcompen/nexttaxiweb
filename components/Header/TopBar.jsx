@@ -10,7 +10,7 @@ const TopBar = () => {
         <div className="flex items-center gap-4">
           <IoLocationOutline className="text-xl" />
           <span className="hidden lg:block">
-            Bağlarbaşı Mah. 47. Ok, Kırıkkale
+           Fabrikalar mah fevzi çakmak cad no 3 KIRIKKALE
           </span>
         </div>
         <Link
@@ -18,7 +18,7 @@ const TopBar = () => {
           className="flex items-center gap-4"
         >
           <MdOutlineMailOutline className="text-xl" />
-          <span className="hidden lg:block">needhelpvapez@gmail.cpm</span>
+          <span className="hidden lg:block">konaktaksi@gmail.com</span>
         </Link>
       </div>
       <div className="flex items-center gap-9">
