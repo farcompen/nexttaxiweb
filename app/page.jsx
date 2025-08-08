@@ -24,14 +24,14 @@ export default function Home() {
         <Service />
         <Booking />
         <Drivers />
-        <Download />
-        <Testimonials />
-        <Pricing />
+        {/* <Download /> */}
+        {/* <Testimonials /> */}
+        {/* <Pricing /> */}
         <Companies />
-        <Safety />
+        {/* <Safety />
         <Achievement />
-        <Blog />
-        <CallToAction />
+        <Blog /> */}
+        {/* <CallToAction /> */}
         <Footer />
       </main>
     </>

@@ -5,20 +5,20 @@ const BookingFrom = () => {
     <form className="shadow-card  w-full bg-white px-5 sm:px-12 py-10 sm:py-14">
       <header>
         <h3 className="text-2xl font-bold font-roboto mb-6">
-          Make your booking
+        Taksi Çağır
         </h3>
       </header>
       <div className=" grid gap-5  sm:grid-cols-2 mb-5">
         <input
           required
-          placeholder="Your name"
+          placeholder="Adınız"
           aria-label="Your name"
           className="text-sm text-dark-gray font-roboto font-bold bg-dem-gray p-5 placeholder:text-dark-gray focus-visible:outline-yellow"
           type="text"
         />
         <input
           required
-          placeholder="Phone number"
+          placeholder="Telefon No"
           aria-label="Phone number"
           className="text-sm placeholder:text-dark-gray text-dark-gray font-roboto font-bold bg-dem-gray p-5 focus-visible:outline-yellow"
           type="text"
@@ -33,7 +33,7 @@ const BookingFrom = () => {
           className="text-sm text-dark-gray font-roboto font-bold bg-dem-gray p-5 placeholder:text-dark-gray focus-visible:outline-yellow"
         >
           <option value="Default" disabled>
-            Select Ticket Type
+            Yolculuk Türü seçiniz
           </option>
           <option value="standard">Standard</option>
           <option value="business">Business</option>
@@ -49,7 +49,7 @@ const BookingFrom = () => {
           className="text-sm text-dark-gray font-roboto font-bold bg-dem-gray p-5 placeholder:text-dark-gray focus-visible:outline-yellow"
         >
           <option disabled value="Default">
-            Number of passengers
+         Yolcu sayısı
           </option>
           <option value="person1">1 Person</option>
           <option value="person2">2 Persons</option>
@@ -60,14 +60,14 @@ const BookingFrom = () => {
 
         <input
           required
-          placeholder="Start destination"
+          placeholder="Binilecek adres"
           aria-label="Start destination"
           className="text-sm placeholder:text-dark-gray text-dark-gray font-roboto font-bold bg-dem-gray p-5 focus-visible:outline-yellow"
           type="text"
         />
         <input
           required
-          placeholder="End destination"
+          placeholder="Gidilecek adres"
           aria-label="End destination"
           className="text-sm placeholder:text-dark-gray text-dark-gray font-roboto font-bold bg-dem-gray p-5 focus-visible:outline-yellow"
           type="text"
@@ -88,7 +88,7 @@ const BookingFrom = () => {
         />
       </div>
       <Button className="text-black bg-yellow hover:bg-black hover:text-white w-full">
-        BOOK TAXI NOW
+        Taksi Çağır
       </Button>
     </form>
   );

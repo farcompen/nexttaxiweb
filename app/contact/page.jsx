@@ -41,21 +41,21 @@ const ContactPage = () => {
                 <div className="mb-9 flex flex-col gap-5">
                   <div>
                     <h6 className="font-bold mb-1 text-lg text-black">
-                      Address
+                      Addresimiz
                     </h6>
                     <div className="text-gray">
-                      254, North City, Blex Center, New York
+                      Fabrikalar mah fevzi çakmak cad no 3
                     </div>
                   </div>
 
                   <div>
-                    <h6 className="font-bold mb-1 text-lg text-black">Phone</h6>
+                    <h6 className="font-bold mb-1 text-lg text-black">Telefon</h6>
                     <div className="text-gray">
                       09 (354) 587 874 or 10 (698) 852 741
                     </div>
                   </div>
                   <div>
-                    <h6 className="font-bold mb-1 text-lg text-black">Email</h6>
+                    <h6 className="font-bold mb-1 text-lg text-black">Mail</h6>
                     <div className="text-gray">
                       info@example.com or info@example.com
                     </div>
@@ -68,14 +68,14 @@ const ContactPage = () => {
                   className="text-lg font-bold text-blue tracking-[6px] hover:underline"
                   href="http://www.taxpi.com"
                 >
-                  www.taxpi.com
+                  www.konaktaksi.com
                 </Link>
               </div>
             </div>
           </div>
  <div className="relative isolate">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.967410377096!2d-111.89998968453055!3d33.31966746342457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2sus!4v1516690469899"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12254.31883091025!2d33.4832666857074!3d39.83883996620812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4081df7388fad443%3A0xa18d0266a4494d60!2zMy4gU2suICYgRmV2emkgw4dha21hayBDZC4sIEZhYnJpa2FsYXIsIDcxMTAwIEvEsXLEsWtrYWxlIE1lcmtlei9LxLFyxLFra2FsZQ!5e0!3m2!1str!2str!4v1754633060029!5m2!1str!2str" 
             width="600"
             height="450"
             className=" w-full h-[480px]"

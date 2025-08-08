@@ -66,7 +66,7 @@ const MobileMenu = () => {
                         href="/"
                         className="text-5xl font-roboto font-bold text-black"
                       >
-                        Kale Taksi<span className="text-black">.</span>
+                        Konak Taksi<span className="text-black">.</span>
                       </Link>
                       <button onClick={closeMenu}>
                         <IoClose className="text-3xl" />

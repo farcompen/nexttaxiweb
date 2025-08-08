@@ -32,7 +32,7 @@ const Drivers = () => {
   return (
     <section className="py-24 md:py-section  ">
       <div className="max-w-container  px-container mx-auto">
-        <SectionHeading label="Our Drivers">Our Expert Drivers</SectionHeading>
+        <SectionHeading label="Our Drivers">Deneyimli Sürücülerimiz</SectionHeading>
       </div>
       <div className="max-w-container  mx-auto px-container ">
         <div ref={emblaRef} className="overflow-hidden py-20">
@@ -45,7 +45,7 @@ const Drivers = () => {
                 <article className="relative isolate border-r-[20px] sm:mr-7  border-black group hover:border-yellow duration-500 transition-all">
                   <div className="absolute -translate-y-12 h-12 bg-[#d8d8d8] w-[158px] pt-2 flex group-hover:bg-[#fff315] text-[#d8d8d8] group-hover:text-[#fff315] duration-500 transition-all justify-center top-0 rounded-t-2xl left-1/2 -translate-x-1/2">
                     <div className="bg-black flex items-center justify-center  w-20 rounded uppercase font-bold font-roboto text-2xl">
-                      Taxi
+                     Taksi
                     </div>
                   </div>
 

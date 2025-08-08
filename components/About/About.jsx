@@ -31,7 +31,7 @@ const About = () => {
             data-aos="fade-up"
             className="text-sm mb-5 font-bold text-blue uppercase"
           >
-           Kale Taksi Vizyonu
+          Kırıkkale Konak Taksi Vizyonu
           </div>
 
           <h2
@@ -45,11 +45,11 @@ const About = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 backgroundSize: "100px",
-                backgroundPositionY: "22px",
+                backgroundPositionY: "28px",
               }}
               className="text-yellow inline-block px-4"
             >
-             Kale Taksi
+          Kırıkkale Konak Taksi
             </span>
           </h2>
           <p className="text-dark-gray max-w-[580px] mb-8">

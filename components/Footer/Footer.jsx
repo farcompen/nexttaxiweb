@@ -28,7 +28,7 @@ const Footer = () => {
               href="/"
               className="text-5xl block mb-10 font-roboto font-bold text-yellow"
             >
-             Kale Taksi<span className="text-white">.</span>
+            Kırıkkale Konak Taksi<span className="text-white">.</span>
             </Link>
             <p className="max-w-[270px] text-silver-gray mb-8 font-roboto ">
              25 Yıllık Deneyimimiz ile Kırıkkale'nin güvenilir Taksi Durağı hizmeti
@@ -37,65 +37,18 @@ const Footer = () => {
               <div className="flex group items-center gap-3">
                 <MdOutlineMail className="text-yellow text-lg" />
                 <span className="text-silver-gray group-hover:text-white duration-500 transition-all font-roboto">
-                  taxicohelp@gmail.com
+                 konaktaksi@gmail.com
                 </span>
               </div>
               <div className="flex group items-center gap-3">
                 <IoLocationSharp className="text-yellow text-lg" />
                 <span className="text-silver-gray group-hover:text-white duration-500 transition-all font-roboto">
-                  Kırıkkale Merkez 
+                 Fabrikalar mah fevzi çakmak cad no 3 Merkez KIRIKKALE 
                 </span>
               </div>
             </div>
           </div>
-          <div>
-            <h4 className="text-xl font-roboto text-white font-bold mb-10">
-              Usefull Links
-            </h4>
-
-            <ul className="flex flex-col gap-4">
-              <li>
-                <Link
-                  className="text-silver-gray hover:text-yellow duration-500 transition-all"
-                  href="/"
-                >
-                  Client support
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-silver-gray hover:text-yellow duration-500 transition-all"
-                  href="/"
-                >
-                  Pricing packages
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-silver-gray hover:text-yellow duration-500 transition-all"
-                  href="/"
-                >
-                  Company story
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-silver-gray hover:text-yellow duration-500 transition-all"
-                  href="/"
-                >
-                  Latest news
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="text-silver-gray hover:text-yellow duration-500 transition-all"
-                  href="/"
-                >
-                  Terms & Condition
-                </Link>
-              </li>
-            </ul>
-          </div>
+         
           <div>
             <h4 className="text-xl font-roboto text-white font-bold mb-10">
               Social Links
@@ -139,27 +92,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div>
-            <h4 className="text-xl font-roboto text-white font-bold mb-10">
-              Get News Letter
-            </h4>
-            <p className="text-steel-gray mb-9 max-w-[330px]">
-              Sign up for get advantage and our upcoming events s article our
-              hey texico
-            </p>
-            <div>
-              <form className="flex mb-7  rounded-2xl h-11 bg-white  w-full ">
-                <input
-                  placeholder="Your Email Address"
-                  className="flex-1  text-ash placeholder:text-ash text-sm px-5 h-11 focus-visible:outline-none bg-transparent"
-                  type="email"
-                />
-                <button className="basis-[60px] hover:bg-white hover:text-black duration-500 transition-all h-11 grid place-content-center bg-yellow rounded-e-2xl  border-l border-yellow text-black">
-                  <FaArrowRightLong />
-                </button>
-              </form>
-            </div>
-          </div>
+         
         </div>
       </div>
       <div className="bg-[#151513] py-6 ">

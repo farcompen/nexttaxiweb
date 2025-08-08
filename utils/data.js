@@ -95,8 +95,8 @@ export const testimonialsData = [
 export const drivers = [
   {
     id: 1,
-    name: "Mustafa Haron",
-    position: "Car Specialist",
+    name: "Mustafa CANDAN",
+    position: "Şoför",
     image: "/home1/drivers/team1.png",
     socialLinks: {
       facebook: "https://www.facebook.com/",
@@ -107,8 +107,8 @@ export const drivers = [
   },
   {
     id: 2,
-    name: "Jane Smith",
-    position: "Car Specialist",
+    name: "Mehmet BALOĞLU",
+    position: "Şoför",
     image: "/home1/drivers/team2.png",
     socialLinks: {
       facebook: "https://www.facebook.com/song2",
@@ -119,8 +119,8 @@ export const drivers = [
   },
   {
     id: 3,
-    name: "Laila Naim",
-    position: "Car Specialist",
+    name: "Nazım HİKMET",
+     position: "Şoför",
     image: "/home1/drivers/team3.png",
     socialLinks: {
       facebook: "https://www.facebook.com/",
@@ -129,42 +129,9 @@ export const drivers = [
       pinterest: "https://www.pinterest.com/",
     },
   },
-  {
-    id: 4,
-    name: "Robert Brown",
-    position: "Car Specialist",
-    image: "/home1/drivers/team4.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
-  {
-    id: 5,
-    name: "Arnold Haron",
-    position: "Car Specialist",
-    image: "/home1/drivers/team1.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
-  {
-    id: 6,
-    name: "Jane Smith",
-    position: "Car Specialist",
-    image: "/home1/drivers/team2.png",
-    socialLinks: {
-      facebook: "https://www.facebook.com/song2",
-      twitter: "https://www.twitter.com/",
-      instagram: "https://www.instagram.com/",
-      pinterest: "https://www.pinterest.com/",
-    },
-  },
+  
+  
+  
 ];
 
 //blog
@@ -206,21 +173,21 @@ export const services = [
   {
     id: 1,
     image: "/home1/service/service1.jpg",
-    title: "Address Pickup",
-    disc: "Suspendisse potenti. Duis non purus nulla. Nullam porta, velit nec gravida",
+    title: "Adresten adrese ",
+    disc: "İstediğiniz adresten alıp, istediğiniz adrese bırakıyoruz",
     icon: FaHome,
   },
   {
     id: 2,
     image: "/home1/service/service2.jpg",
-    title: "Airport Transfer",
+    title: "Esenboğa HavaAlanı transfer",
     disc: "Suspendisse potenti. Duis non purus nulla. Nullam porta, velit nec gravida",
     icon: FaPlane,
   },
   {
     id: 3,
     image: "/home1/service/service3.jpg",
-    title: "Online Booking",
+    title: "Online Taksi Çağırma",
     disc: "Suspendisse potenti. Duis non purus nulla. Nullam porta, velit nec gravida",
     icon: FaLaptop,
   },

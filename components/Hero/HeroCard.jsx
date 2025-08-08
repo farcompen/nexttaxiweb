@@ -18,7 +18,7 @@ const HeroCard = ({ hero }) => {
             data-aos="fade-up"
             className="text-purple text-yellow mb-6 font-semibold uppercase"
           >
-            Kale Taksi 
+            Kırıkkale KONAK Taksi 
           </p>
           <h1
             data-aos="fade-up"

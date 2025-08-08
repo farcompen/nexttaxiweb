@@ -19,7 +19,19 @@ const Navbar = () => {
     <nav className=" flex     h-20 2xl:h-[100px]">
       <div className="2xl:basis-[300px] flex justify-center items-center  px-10 bg-logo bg-no-repeat bg-cover">
         <Link href="/" className="text-4xl font-roboto font-bold text-yellow">
-          Kale Taksi<span className="text-black">.</span>
+          <span className="flex items-center gap-2">
+            <img
+              src="/taksi.png"
+              alt="Taksi Logo"
+              className="w-12 h-12 object-contain drop-shadow-lg"
+              style={{ marginRight: "8px" }}
+            />
+            <span className="text-2xl font-roboto font-bold text-yellow">
+              Konak Taksi
+            
+             
+            </span>
+          </span>
         </Link>
       </div>
       <div className=" hidden flex-1 xl:flex items-center justify-between bg-yellow px-10 2xl:px-16 gap-10 xl:gap-16">
